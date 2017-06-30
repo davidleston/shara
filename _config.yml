@@ -1,0 +1,22 @@
+
+# Build settings
+kramdown:
+  # Use GitHub flavored markdown, including triple backtick fenced code blocks
+  input: GFM
+  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
+
+sass:
+  style: compressed
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: [head, body]
+
+gems:
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - CNAME
